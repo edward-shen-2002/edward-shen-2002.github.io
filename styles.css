@@ -1,0 +1,53 @@
+:root {
+  --background-default: #282c34;
+  --foreground-default: white;
+}
+
+body {
+  background-color: var(--background-default);
+}
+
+#fade-page{
+  color: var(--foreground-default);
+  animation: fade-in 2s, slide-up 2s;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  text-align: center;
+}
+
+#title {
+  padding-top: 1cm;
+}
+@keyframes fade-in {
+  from {
+    color: var(--background-default);
+  } 
+  to {
+    color: var(--foreground-default);
+  }
+}
+@keyframes slide-up {
+  from {
+    padding-top: 1cm;
+  }
+  to {}
+}
+#title h1 {
+  font-size: 60pt;
+}
+
+#about {
+  font-size: 16pt;
+}
+
+a {
+  color: var(--foreground-default);
+  animation: fade-in 2s;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  text-decoration: underline;
+}
