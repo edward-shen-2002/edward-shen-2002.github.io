@@ -7,14 +7,14 @@ body {
   background-color: var(--background-default);
 }
 
-.fade-page{
+#fade-page{
   color: var(--foreground-default);
   animation: fade-in 2s, slide-up 2s;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   text-align: center;
 }
 
-.title {
+#title {
   padding-top: 1cm;
 }
 @keyframes fade-in {
@@ -31,11 +31,11 @@ body {
   }
   to {}
 }
-.title h1 {
+#title h1 {
   font-size: 60pt;
 }
 
-.about {
+#about {
   font-size: 16pt;
 }
 
